@@ -1,1 +1,27 @@
 /* Other rules */
+
+* {
+  box-sizing: border-box !important;
+  font-family: "Segoe UI" !important;
+  color: white;
+}
+
+body {
+  background-color: #1a1b1d;
+}
+
+header {
+  background-color: #131414;
+  display: flex;
+}
+
+.logo-marvel {
+  width: 170px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.search {
+  width: 150px;
+  height: 20px;
+}
