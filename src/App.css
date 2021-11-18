@@ -13,6 +13,44 @@ body {
 header {
   background-color: #131414;
   display: flex;
+
+  margin-bottom: 30px;
+}
+
+.center-text {
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.home-page {
+  width: 592px;
+  margin: auto;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.to-comics-page {
+  background-color: black;
+  border-radius: 10%;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  width: 100px;
+  text-align: center;
+}
+
+.to-characters-page {
+  background-color: black;
+  border-radius: 10%;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  width: 120px;
+  text-align: center;
+}
+
+.links {
+  text-decoration-line: none;
 }
 
 .logo-marvel {
@@ -24,4 +62,84 @@ header {
 .search {
   width: 150px;
   height: 20px;
+}
+
+.comics-page {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.comics-list {
+  width: 20%;
+  margin: 25px 20px;
+}
+
+.comics-form {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #131414;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+.comics-title {
+  padding-top: 20px;
+}
+
+.comics-img {
+  display: flex;
+  height: 370px;
+  width: 250px;
+  object-fit: cover;
+  margin: 30px 0px;
+}
+
+.comics-description {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.characters-page {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.characters-form {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #131414;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+.characters-list {
+  width: 20%;
+  margin: 25px 20px;
+}
+
+.characters-name {
+  padding-top: 20px;
+}
+
+.characters-img {
+  display: flex;
+  height: 300px;
+  width: 250px;
+  object-fit: cover;
+  margin: 30px 0px;
+}
+
+.characters-description {
+  text-align: center;
+  padding-bottom: 20px;
 }
